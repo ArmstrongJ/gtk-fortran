@@ -46,8 +46,8 @@ set(CMAKE_Fortran_FLAGS_DEBUG
 # Not all of the above are understood by g95, the following is a minimal 
 # setting.
 # "-g -pthread  -fbounds-check")
-set(CMAKE_Fortran_FLAGS_RELEASE
-"-pthread -O3 -mtune=native -march=native")
+
+set(CMAKE_Fortran_FLAGS_RELEASE "-pthread -O2")
 
 set(CPACK_PACKAGE_VERSION "0.1.0")
 set(CPACK_PACKAGE_INSTALL_DIRECTORY "gtk2-fortran")

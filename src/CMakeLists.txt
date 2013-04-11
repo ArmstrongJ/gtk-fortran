@@ -25,6 +25,8 @@
 
 # CMAKE build file for GtkFortran
 
+option(INSTALL_EXAMPLES "Installs example files to the data directory" OFF)
+
 set(sources
 	"atk-auto.f90"
 	"cairo-auto.f90"
